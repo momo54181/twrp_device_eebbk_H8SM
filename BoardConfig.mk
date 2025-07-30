@@ -84,4 +84,16 @@ TW_SCREEN_BLANK_ON_BOOT := true
 TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_USE_TOOLBOX := true
 
-BOARD_HAS_FLIPPED_SCREEN:= true #屏幕颠倒
+BOARD_HAS_FLIPPED_SCREEN:= true 
+#屏幕颠倒
+
+TW_DEFAULT_LANGUAGE := zh_CN 
+#默认语言中文
+TW_EXCLUDE_TWRPAPP := false
+#不添加TWRP App
+TW_DEVICE_VERSION :=  by Momo5418
+#Flag
+
+# Debug
+TWRP_INCLUDE_LOGCAT := true
+TARGET_USES_LOGD := true
